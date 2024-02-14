@@ -1,0 +1,99 @@
+body {
+    background-image: url('matrix.jpg');
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.calc{
+    height: 600px;
+    width: 300px;
+    border-radius: 5%;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.calc-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-bottom:0px;
+}
+
+.title{
+    margin: 0;
+    color: black;
+}
+
+.calc-screen{
+    background-color: whitesmoke;
+    border-radius: 5%;
+    margin: 15px;
+    padding: 10px;
+    height: 80px;
+}
+
+.calc-btns{
+    padding: 15px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+    border: none;
+    margin: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+button:active{
+    background: white;
+    color: black;
+}
+
+button:hover{
+    background: white;
+    color: black;
+}
+
+#btn-clear{
+    width: 111px;
+    background-color: white;
+    color: black;
+}
+
+#btn-delete{
+    width: 111px;
+    background-color: white;
+    color: black;
+}
+
+#btn-delete:active{
+    background: black;
+    color: white;
+}
+
+#btn-delete:hover{
+    background: black;
+    color: white;
+}
+
+#btn-clear:active{
+    background: black;
+    color: white;
+}
+
+#btn-clear:hover{
+    background: black;
+    color: white;
+}
